@@ -1,64 +1,52 @@
 # Custom_File_System_FATA
-Custom FAT File System Implementation
+# Custom FAT File System Implementation
+
 A complete File Allocation Table (FAT) based file system implementation in C with configurable settings, encryption support, and variable file name sizes.
 
-📋 Project Overview
+## 📋 Project Overview
+
 This project implements a custom FAT file system from scratch, providing a console interface to interact with the file system. It supports all basic file operations, directory management, and includes several bonus features for enhanced functionality.
 
-✨ Features
-Core Features
-FAT-based File System: Implements File Allocation Table for efficient block management
+## ✨ Features
 
-File Operations: Create, delete, read, write, and truncate files
+### Core Features
+- **FAT-based File System**: Implements File Allocation Table for efficient block management
+- **File Operations**: Create, delete, read, write, and truncate files
+- **Directory Operations**: Create and delete directories, list contents
+- **Block-level Operations**: Low-level read/write block operations using host OS filing
+- **Console Interface**: Interactive command-line interface for file system management
 
-Directory Operations: Create and delete directories, list contents
+### Bonus Features
+- **🔧 Configurable System Settings**: Parameterize disk size, block size, and file limits
+- **📛 Variable File Name Size**: Support for filenames up to 64 bytes (configurable to 255)
+- **🔒 Partition Encryption**: Basic encryption support for data security
+- **⚙️ Runtime Configuration**: Modify system parameters without recompilation
 
-Block-level Operations: Low-level read/write block operations using host OS filing
+## 🛠️ System Specifications
 
-Console Interface: Interactive command-line interface for file system management
+### Default Settings
+- **Directory Size**: 128 entries
+- **Maximum File Name Size**: 64 bytes (configurable)
+- **Maximum File Size**: 128 blocks
+- **Block Size**: 1 KB (1024 bytes)
+- **Total Disk Size**: 64 MB
 
-Bonus Features
-🔧 Configurable System Settings: Parameterize disk size, block size, and file limits
+### Configurable Parameters
+- Disk Size: 1MB - 1GB
+- Block Size: 512B - 16KB (power of 2)
+- Max Files per Directory: 16 - 1024
+- Max Filename Size: 8 - 255 bytes
+- Max File Blocks: 1 - 65535
 
-📛 Variable File Name Size: Support for filenames up to 64 bytes (configurable to 255)
+## 🚀 Getting Started
 
-🔒 Partition Encryption: Basic encryption support for data security
+### Prerequisites
+- GCC compiler
+- Standard C library
+- Linux/Unix environment (tested on WSL2)
 
-⚙️ Runtime Configuration: Modify system parameters without recompilation
-
-🛠️ System Specifications
-Default Settings
-Directory Size: 128 entries
-
-Maximum File Name Size: 64 bytes (configurable)
-
-Maximum File Size: 128 blocks
-
-Block Size: 1 KB (1024 bytes)
-
-Total Disk Size: 64 MB
-
-Configurable Parameters
-Disk Size: 1MB - 1GB
-
-Block Size: 512B - 16KB (power of 2)
-
-Max Files per Directory: 16 - 1024
-
-Max Filename Size: 8 - 255 bytes
-
-Max File Blocks: 1 - 65535
-
-🚀 Getting Started
-Prerequisites
-GCC compiler
-
-Standard C library
-
-Linux/Unix environment (tested on WSL2)
-
-Compilation
-bash
+### Compilation
+```bash
 gcc -o fatfs fatfs.c
 Running the Program
 bash
@@ -179,8 +167,10 @@ Extensible architecture for additional features
 
 📁 Project Structure
 text
-fatfs.c          - Main implementation file
-README.md        - Project documentation
+fatfs/
+├── fatfs.c          # Main implementation file
+├── README.md        # Project documentation
+└── examples/        # Usage examples (optional)
 🐛 Known Issues and Limitations
 Encryption uses simple XOR for demonstration (not cryptographically secure)
 
