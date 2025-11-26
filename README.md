@@ -218,8 +218,7 @@ SCREENSHOTS
 
 commands.PNG
 
-
-#<img width="1067" height="376" alt="image" src="https://github.com/user-attachments/assets/823a287b-6143-482d-af06-9d5ca3a1fcbf" />
+https://assets/commands.png
 
 
 #<img width="535" height="98" alt="image" src="https://github.com/user-attachments/assets/03df6651-ced6-4aed-a843-e9d53d99a4b8" />
