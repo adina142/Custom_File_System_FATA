@@ -214,8 +214,33 @@ Configuration change validation
 
 Mount/unmount cycle testing
 
-📄 License
-This project is for educational purposes as part of an operating systems assignment.
+SCREENSHOTS
 
-👥 Contributors
-Developed as a solo academic project demonstrating file system implementation concepts.
+<img width="631" height="478" alt="image" src="https://github.com/user-attachments/assets/480744ba-d117-44a4-ab00-0d4db4a720fc" />
+
+
+<img width="1067" height="376" alt="image" src="https://github.com/user-attachments/assets/823a287b-6143-482d-af06-9d5ca3a1fcbf" />
+
+
+<img width="535" height="98" alt="image" src="https://github.com/user-attachments/assets/03df6651-ced6-4aed-a843-e9d53d99a4b8" />
+
+
+<img width="712" height="222" alt="image" src="https://github.com/user-attachments/assets/c61e2773-9a9e-418e-b591-50908846a282" />
+
+
+<img width="754" height="345" alt="image" src="https://github.com/user-attachments/assets/e564a988-6e87-42e6-aeaa-b1d65dfb6788" />
+
+
+<img width="792" height="558" alt="image" src="https://github.com/user-attachments/assets/6532aa49-7ced-4eca-8042-6f67f1fcb84e" />
+
+<img width="712" height="232" alt="image" src="https://github.com/user-attachments/assets/37c0933f-fa82-4878-ab6a-513c3a15c71d" />
+
+
+
+
+
+
+
+
+
+
